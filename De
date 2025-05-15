@@ -1,0 +1,18 @@
+
+
+As you're already aware, the HCMS violation in the Fireworld configuration (No Rule) is still persisting and needs your immediate attention.
+
+Yesterday, Yogesh and I connected to address this. We added the **Social Global URL** to your configurations, deployed the pod, and set up the relevant **cron job**. Despite these changes, the violation continues to appear.
+
+On further investigation, we ran a `dig social.com` and reviewed the resolved IPs. We found that **some of the IPs are not aligned with the ones currently present in the firewall rule**, indicating a mismatch. We suggest verifying the **CIDR ranges** for the three IPs below and updating the rule if necessary. If you feel it’s appropriate, we can **edit and remove the mismatched IPs** from the configuration.
+
+Please review this and take appropriate action.
+If an exception is needed, kindly raise it. If not, we can proceed to **remove the entry from the SOT file**. We need to be prepared to address this during the upcoming **Commons call on Tuesday**.
+
+**\[Insert link to the conference page and configuration/IP details]**
+
+
+
+---
+
+Let me know if you’d like this adapted for an email format or need help filling in the IPs or link.
